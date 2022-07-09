@@ -1,0 +1,21 @@
+.item-wrap {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin-bottom: 30px;
+	border: 1px solid teal;
+}
+
+.item-complete {
+	width: 10px;
+	height: 10px;
+	border: 1px solid teal;
+}
+
+.item-complete.yes {
+	background-color: green;
+}
+
+.item-complete.no {
+	background-color: red;
+}
